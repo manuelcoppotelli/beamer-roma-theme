@@ -40,3 +40,6 @@ Compiling them you get some slides with documentation:
 $ pdflatex roma-demo.tex
 ```
 
+##Copyright
+Sapienza logo and the DIAG (Department of Computer, Control and Management Engineering)
+logo belongs to the respective owners.
