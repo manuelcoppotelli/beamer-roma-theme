@@ -40,7 +40,7 @@
 
 % Lengths
 \newlength{\headerheight}
-\setlength{\headerheight}{.045\paperheight}
+\setlength{\headerheight}{.065\paperheight}
 \newlength{\beamer@runglines@lineup}
 \setlength{\beamer@runglines@lineup}{.03\paperheight}
 \newlength{\beamer@runglines@linebottom}
@@ -91,7 +91,8 @@
 {
   \leavevmode%
   \hbox{%
-  \begin{beamercolorbox}[wd=\paperwidth,ht=\headerheight,dp=0pt]{page header}%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=\headerheight,dp=0pt,sep=1pt]{page header}%
+  \vskip2pt\insertnavigation{\paperwidth}\vskip2pt
   \end{beamercolorbox}%
   } %
   \vskip0pt%
