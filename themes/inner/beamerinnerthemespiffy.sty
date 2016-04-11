@@ -146,8 +146,11 @@
 \def\circletext{circle}
 \ifx\beamer@spiffy@bullet\circletext
   \setbeamertemplate{items}[circlealt]
+  \setbeamertemplate{section in toc}[circle]
+  \setbeamertemplate{subsection in toc}{\leavevmode\leftskip=1em$\color{roma-university}\bullet$\hskip0.2em\parbox[t]{\textwidth-\leftskip-3em}{\inserttocsubsection}\vspace{2ex}\par}
 \else
   \setbeamertemplate{items}[squarealt]
+  \setbeamertemplate{sections/subsections in toc}[square]
 \fi
 
 \mode<all>

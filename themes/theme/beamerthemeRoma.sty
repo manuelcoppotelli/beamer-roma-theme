@@ -2,6 +2,9 @@
 
 \mode<presentation>
 
+% Requirements
+\RequirePackage{calc}
+
 \DeclareOptionBeamer{alternativetitlepage}[true]{\PassOptionsToPackage{alternativetitlepage=#1}{beamerinnerthemespiffy}}
 \DeclareOptionBeamer{titlepagelogo}{\PassOptionsToPackage{titlepagelogo=#1}{beamerinnerthemespiffy}}
 \DeclareOptionBeamer{bullet}{\PassOptionsToPackage{bullet=#1}{beamerinnerthemespiffy}}
@@ -18,6 +21,7 @@
 \usecolortheme{sapienza}
 
 \setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{blocks}[rounded]
 
 \mode
 <all>
