@@ -10,6 +10,9 @@ allows you to create presentations.  Beamer contains several
 full-featured (but a bit ugly) themes, so I wrote this spiffy theme
 (but with some missing features) called Roma.
 
+## Demo
+You can preview an example of presentation made using this theme [here](https://github.com/manuelcoppotelli/beamer-roma-theme/blob/master/examples/roma-demo.pdf).
+
 ## Installation
 First of all, you have to install Beamer, directly from source or
 using an already made package for your distro.  Then install the
