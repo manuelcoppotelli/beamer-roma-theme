@@ -7,6 +7,21 @@
 \titlepage
 \end{frame}
 
+\begin{frame}
+\frametitle{Table of contents}
+\tableofcontents
+\end{frame}
+
+\AtBeginSection[]
+{
+\begin{frame}<beamer>
+\frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+\section{The theme}
+\subsection{General infos}
 \begin{frame}[t]{What is this?}
 \begin{itemize}
 \item Beamer is a \LaTeX{} class that allows you to create presentations
@@ -27,31 +42,6 @@
   \begin{itemize}
   \item Other themes are named after locations of Universities or conferences
   \item Roma is the location of Sapienza, University of Rome (my university)
-  \end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}[t,fragile]{How to use the theme}
-\begin{itemize}
-\item Install Beamer
-  \begin{itemize}
-  \item Some distros have a \verb!latex-beamer! package
-  \end{itemize}
-\item Read the Beamer documentation
-  \begin{itemize}
-  \item \verb!/usr/share/doc/latex-beamer/beameruserguide.pdf.gz! if you are
-        using Debian
-  \item \verb!doc/beameruserguide.pdf! in the source package
-  \end{itemize}
-\item Install the theme
-  \begin{itemize}
-  \item \verb!sudo cp -r themes /usr/share/texmf/tex/latex/beamer/!\\
-  \item \verb!sudo texhash!
-  \end{itemize}
-\item Read the example files
-  \begin{itemize}
-  \item \verb!roma-demo.tex!: example of usage oh this theme
-  \item \verb!content.tex!: the text of this presentation
   \end{itemize}
 \end{itemize}
 \end{frame}
@@ -79,6 +69,35 @@
 \end{itemize}
 \end{frame}
 
+\section{Installation}
+\subsection{}
+\begin{frame}[t,fragile]{How to use the theme}
+\begin{itemize}
+\item Install Beamer
+  \begin{itemize}
+  \item Some distros have a \verb!latex-beamer! package
+  \end{itemize}
+\item Read the Beamer documentation
+  \begin{itemize}
+  \item \verb!/usr/share/doc/latex-beamer/beameruserguide.pdf.gz! if you are
+        using Debian
+  \item \verb!doc/beameruserguide.pdf! in the source package
+  \end{itemize}
+\item Install the theme
+  \begin{itemize}
+  \item \verb!sudo cp -r themes /usr/share/texmf/tex/latex/beamer/!\\
+  \item \verb!sudo texhash!
+  \end{itemize}
+\item Read the example files
+  \begin{itemize}
+  \item \verb!roma-demo.tex!: example of usage oh this theme
+  \item \verb!content.tex!: the text of this presentation
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Customization}
+\subsection{Basic config}
 \begin{frame}[t,fragile]{Configuring the theme}
 \begin{itemize}
 \item Beamer themes can be configured with options between \verb![! and
@@ -115,6 +134,7 @@
 \end{itemize}
 \end{frame}
 
+\subsection{Watermark}
 \begin{frame}[t,fragile]{Watermark}
 \begin{itemize}
 \item A watermark can be shown in the bottom right corner of frames
@@ -153,6 +173,7 @@
 \end{frame}
 \watermarkon
 
+\subsection{Others}
 \begin{frame}[t,fragile]{Other options}
 \begin{itemize}
 \item The \verb!pageofpages! option defines the string between the current
@@ -178,4 +199,3 @@
       is drawn below the title
 \end{itemize}
 \end{frame}
-
