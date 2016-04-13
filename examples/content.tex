@@ -105,18 +105,19 @@
   \begin{itemize}
   \item \verb!\usetheme[option1 = value, option2 = value]{Roma}!
   \end{itemize}
-\item If you do not specify any option, you get
-  \begin{itemize}
-  \item Simple title page
-  \item No watermark or logo
-  \item Squares for bullet lists
-  \end{itemize}
 \item A logo, shown in the upper right corner, can be choosen with the
       \verb!\logo! command
   \begin{itemize}
   \item \verb!\logo{\includegraphics[height=50px]{logo-image}}!
   \end{itemize}
 \end{itemize}
+\begin{alertblock}{Default options (if nothing specified)}
+  \begin{itemize}
+  \item Simple title page
+  \item No watermark or logo
+  \item Squares for bullet lists
+  \end{itemize}
+\end{alertblock}
 \end{frame}
 
 \begin{frame}[t,fragile]{Alternative title page}
@@ -126,11 +127,12 @@
 \item You can put a logo in the title page, just pass the file name using the
       \verb!titlepagelogo! option
 \item Remember to use a plain and top-aligned frame when using alternative title
-      pages:\\
-      \vskip1ex
+      pages
+\begin{exampleblock}{Alternative title frame}
       \verb!\begin{frame}[t,plain]!\\
       \verb!\titlepage!\\
       \verb!\end{frame}!
+\end{exampleblock}
 \end{itemize}
 \end{frame}
 
@@ -167,8 +169,9 @@
 \item The \verb!\watermarkon! command restores the watermark in the following
       frames
 \item If you did not specify a watermark, nothing happens
-\vskip5ex
-\item \verb!\watermarkoff! was used for this frame
+\begin{block}{Notice}
+\verb!\watermarkoff! was used for this frame
+\end{block}
 \end{itemize}
 \end{frame}
 \watermarkon
