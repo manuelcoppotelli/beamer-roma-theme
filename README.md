@@ -5,10 +5,14 @@ ROMA, A SPIFFY THEME FOR BEAMER LATEX
 Manuel Coppotelli <manuelcop@gmail.com>
 
 ## Abstract
-Beamer (http://latex-beamer.sourceforge.net/) is a LaTeX class that
-allows you to create presentations.  Beamer contains several
-full-featured (but a bit ugly) themes, so I wrote this spiffy theme
-(but with some missing features) called Roma.
+Beamer ([http://latex-beamer.sourceforge.net/](http://latex-beamer.sourceforge.
+net/)) is a LaTeX class that allows you to create presentations.  Beamer
+contains several full-featured (but a bit ugly) themes, so I wrote this spiffy
+theme (but with some missing features) called Roma.
+
+The color scheme is taken from the official Sapienza [brand guidelines](http://w
+ww.uniroma1.it/sites/default/files/ElementiBase_Brand%20acrhitecture.pdf).
+
 
 ## Demo
 You can preview an example of presentation made using this theme [here](https://github.com/manuelcoppotelli/beamer-roma-theme/blob/master/examples/roma-demo.pdf).
