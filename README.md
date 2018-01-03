@@ -1,7 +1,7 @@
 ROMA, A SPIFFY THEME FOR BEAMER LATEX
 =======================================
 
-## Authors
+## Author
 Manuel Coppotelli <manuelcop@gmail.com>
 
 ## Abstract
@@ -16,7 +16,7 @@ You can preview an example of presentation made using this theme [here](https://
 
 ## Installation
 First of all, you have to install Beamer, directly from source or using an
-already made package for your distro. Then install the theme
+available package for your distro; then install the theme.
 
 ### Unix installation
 On a Unix system just type in a terminal:
@@ -26,8 +26,8 @@ $ sudo cp -r themes /usr/share/texmf/tex/latex/beamer/
 $ sudo texhash
 ```
 
-### OSX installation
-On (Mac) OSX system just type in a terminal:
+### MacOS installation
+On MacOS just type in a terminal:
 
 ```bash
 $ sudo cp -r themes /usr/local/texlive/2015basic/texmf-dist/tex/latex/beamer/
@@ -43,6 +43,6 @@ Compiling them you get some slides with documentation:
 $ pdflatex roma-demo.tex
 ```
 
-##Copyright
+## Copyright
 Sapienza and DIAG (Department of Computer, Control and Management Engineering)
 logos belong to their respective owners.
