@@ -5,6 +5,9 @@
 % Show a line below the frame title.
 \DeclareOptionBeamer{titleline}[true]{\def\beamer@runglines@titleline{#1}}
 
+% Display the author name in the footer.
+\DeclareOptionBeamer{displayauthoronfooter}[true]{\def\beamer@runglines@displayauthoronfooter{#1}}
+
 % Image used for the watermark.
 \def\beamer@runglines@watermarkorig{}
 \DeclareOptionBeamer{watermark}{\def\beamer@runglines@watermarkorig{#1}}
@@ -76,9 +79,17 @@
    \hbox{%
    \begin{beamercolorbox}[wd=.2\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt]{linebottom}%
    \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt, sep=5pt]{linebottom}%
-      \tiny{\hspace*{\fill} \insertauthor \hspace*{\fill}}%
-    \end{beamercolorbox}%
+
+   %If 'displayauthoronfooter' is true, then write the name in the footer.
+   \def\beamer@runglines@truetext{true}%
+   \ifx\beamer@runglines@displayauthoronfooter\beamer@runglines@truetext%
+        \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt, sep=5pt]{linebottom}%
+                \tiny{\hspace*{\fill} \insertauthor \hspace*{\fill}}%
+        \end{beamercolorbox}%
+    \else
+        \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt, sep=5pt]{linebottom}%
+        \end{beamercolorbox}%
+    \fi
     } %
 
   % This seems to fix some alignment problems with the watermark. It has to be
