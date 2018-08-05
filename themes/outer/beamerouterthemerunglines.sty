@@ -5,6 +5,9 @@
 % Show a line below the frame title.
 \DeclareOptionBeamer{titleline}[true]{\def\beamer@runglines@titleline{#1}}
 
+% Display the author name in the footer.
+\DeclareOptionBeamer{displayauthoronfooter}[true]{\def\beamer@runglines@displayauthoronfooter{#1}}
+
 % Image used for the watermark.
 \def\beamer@runglines@watermarkorig{}
 \DeclareOptionBeamer{watermark}{\def\beamer@runglines@watermarkorig{#1}}
@@ -73,10 +76,23 @@
   } %
   \vskip-.3px%
   % Second line.
-  \hbox{%
-  \begin{beamercolorbox}[wd=\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt]{linebottom}%
-  \end{beamercolorbox}%
-  } %
+   \hbox{%
+   \begin{beamercolorbox}[wd=.2\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt]{linebottom}%
+   \end{beamercolorbox}%
+
+   %If 'displayauthoronfooter' is true, then write the name in the footer.
+   \def\beamer@runglines@truetext{true}%
+   \ifx\beamer@runglines@displayauthoronfooter\beamer@runglines@truetext%
+        \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt, sep=5pt]{linebottom}%
+                \tiny{\hspace*{\fill} \insertauthor \hspace*{\fill}}%
+        \end{beamercolorbox}%
+    \else
+        \hskip-.3px%
+        \begin{beamercolorbox}[wd=.8\paperwidth,ht=\beamer@runglines@linebottom,dp=0pt, sep=5pt]{linebottom}%
+        \end{beamercolorbox}%
+    \fi
+    } %
+
   % This seems to fix some alignment problems with the watermark. It has to be
   % always applied if you do not want to see the footer moving up and down when
   % moving from a page with watermark to a page without or vice versa.
