@@ -14,9 +14,10 @@ presentations. Beamer contains several full-featured (but a bit ugly) themes, so
 The color scheme is taken from the official Sapienza [brand guidelines](http://www.uniroma1.it/sites/default/files/ElementiBase_Brand%20acrhitecture.pdf).
 
 ## Overleaf 
-Checkout the Overleaf branch and then:
+* Fastest way: Click on this overleaf link (https://www.overleaf.com/read/rkjvzctxsyvt) and then copy the project in your profile. <br>
+* Alternative way:
+Checkout the Overleaf branch and then: <br>
 You can use this project on [Overleaf](https://www.overleaf.com).
-Click on this overleaf link (https://www.overleaf.com/read/rkjvzctxsyvt) and then copy the project in your profile.
 
 
 ## Demo
