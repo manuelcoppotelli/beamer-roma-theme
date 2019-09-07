@@ -14,11 +14,11 @@ presentations. Beamer contains several full-featured (but a bit ugly) themes, so
 The color scheme is taken from the official Sapienza [brand guidelines](http://www.uniroma1.it/sites/default/files/ElementiBase_Brand%20acrhitecture.pdf).
 
 ## Overleaf 
-* Fastest way: Click on this overleaf link (https://www.overleaf.com/read/rkjvzctxsyvt) and then copy the project in your profile. <br>
-* Alternative way:
-Checkout the Overleaf branch and then: <br>
-You can use this project on [Overleaf](https://www.overleaf.com).
+### Fastest way
+Click on this overleaf link (https://www.overleaf.com/read/rkjvzctxsyvt) and then copy the project in your profile.
 
+### Alternative way
+Checkout the [overleaf](https://github.com/manuelcoppotelli/beamer-roma-theme/tree/overleaf) branch and then you can use this project on [Overleaf](https://www.overleaf.com)
 
 ## Demo
 You can preview an example of presentation made using this theme [here](https://github.com/manuelcoppotelli/beamer-roma-theme/blob/master/examples/roma-demo.pdf).
