@@ -4,11 +4,20 @@ ROMA, A SPIFFY THEME FOR BEAMER LATEX
 ## Author
 Manuel Coppotelli <manuelcop@gmail.com>
 
+### Contributor 
+Andrea Bacciu [github profile](http://www.github.com/andreabac3)
+
 ## Abstract
 Beamer ([https://bitbucket.org/rivanvx/beamer/wiki/Home](https://bitbucket.org/rivanvx/beamer/wiki/Home)) is a LaTeX class that allows you to create
 presentations. Beamer contains several full-featured (but a bit ugly) themes, so I wrote this spiffy theme (but with some missing features) called Roma.
 
 The color scheme is taken from the official Sapienza [brand guidelines](http://www.uniroma1.it/sites/default/files/ElementiBase_Brand%20acrhitecture.pdf).
+
+## Overleaf 
+* Fastest way: Click on this overleaf link (https://www.overleaf.com/read/rkjvzctxsyvt) and then copy the project in your profile. <br>
+* Alternative way:
+Checkout the Overleaf branch and then: <br>
+You can use this project on [Overleaf](https://www.overleaf.com).
 
 
 ## Demo
