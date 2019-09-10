@@ -52,6 +52,11 @@ Compiling them you get some slides with documentation:
 $ pdflatex roma-demo.tex
 ```
 
+## How to use it for slides in Italian or English
+Choose the right (main) file, for italian slides select roma-demo-it.tex.
+Otherwhise, for english slides, use roma-demo-en.tex 
+
+
 ## Copyright
 Sapienza and DIAG (Department of Computer, Control and Management Engineering)
 logos belong to their respective owners.
