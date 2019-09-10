@@ -53,8 +53,8 @@ $ pdflatex roma-demo.tex
 ```
 
 ## How to use it for slides in Italian or English
-Choose the right (main) file, for italian slides select roma-demo-it.tex.
-Otherwhise, for english slides, use roma-demo-en.tex 
+Choose the right (main) file, for italian slides select `roma-demo-it.tex`.
+Otherwhise, for english slides, use `roma-demo-en.tex`.
 
 
 ## Copyright
