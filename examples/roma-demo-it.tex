@@ -1,0 +1,31 @@
+% !TEX encoding = UTF-8
+% !TEX program = pdflatex
+% !TEX spellcheck = en_US
+
+\documentclass[italian]{beamer}
+\usepackage[italian]{babel}
+\usepackage[utf8]{inputenx}
+
+
+\usetheme[
+  bullet=circle,                  % Use circles instead of squares for bullets
+  titleline=false,                % Show a line below the frame
+  alternativetitlepage=true,      % Use the fancy title
+  titlepagelogo=logo-sapienza,    % Logo for the first slide
+  watermark=watermark-sapienza,   % Watermark used in every slide
+  watermarkheight=20px,           % Desired height of the watermark
+  watermarkheightmult=6,          % Watermark image is actually x times bigger
+  displayauthoronfooter=true,     % Display author name in the footer
+]{Roma}
+
+\author{Manuel Coppotelli}
+\title{Sapienza template \LaTeX{} Beamer}
+\subtitle{Facoltà di Ingegneria dell'informazione, informatica e statistica}
+\institute{Magistrale in\\ Ingegneria informatica \\ Sapienza, Università di Roma}
+\date{A. Y. 2017 - 2018}
+
+\begin{document}
+
+\include{content}
+
+\end{document}
